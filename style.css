@@ -1,0 +1,91 @@
+.textfield {
+    width: 99%;
+    height: inherit;
+    display: block;
+    resize: none;
+    padding: .5%;
+    border: 2px solid black;
+    word-wrap: break-word;
+    background-color: white;
+}
+
+.keyboard-container {
+    width: 80%;
+    margin-left: 9.5%;
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.keyboard-container .keys-container {
+    margin-left: 80px;
+    padding-bottom: 1%;
+}
+
+button {
+    width: 6.3%;
+    padding: 1%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 6%;
+    outline: none;
+    background-color: white;
+}
+
+.space {
+    width: 63%;
+    margin-left: 14.5%;
+    padding: 2%;
+}
+
+.shift {
+    width: 14%;
+    background-color: red;
+    padding: 2%;
+}
+
+.backspace {
+    width: 11%;
+    font-size: 15px;
+    text-align: center;
+    height: 58px;
+    display: inline-flex;
+}
+
+.capslock {
+    background-color: red;
+    width: 11%;
+    height: 60px;
+}
+
+.letters, .punctuation {
+    height: 60px;
+}
+
+.enter {
+    padding: 2%;
+    width: 12%;
+}
+
+.row2 {
+    margin-left: 4px;
+    align-items: center;
+}
+
+.row3 {
+    margin-left: 8px;
+}
+
+.test {
+    border: 2px solid red;
+    width: 6.3%;
+    padding: 1%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1%;
+    border-radius: 6%;
+    outline: none;
+}

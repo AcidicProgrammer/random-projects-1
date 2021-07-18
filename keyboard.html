@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Keyboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <a href = "textAdventure.html">Text adventure game!</a>
+    <div class = "button-panel">
+        <input type = "button" value = "Animate" onclick = "animateKeyboard()">
+    </div>
+
+    <div class = "textfield" contenteditable = "true" id = "textfield"></div>
+
+    <div class = "keyboard-container">
+     <div class = "keys-container">
+        <button onclick="showValue('1')">!<br>1</button> <!-- Hold shift for ! -->
+        <button onclick="showValue('2')">@<br>2</button> <!-- Hold shift for @ -->
+        <button onclick="showValue('3')">#<br>3</button> <!-- Hold shift for # -->
+        <button onclick="showValue('4')">$<br>4</button> <!-- Hold shift for $ -->
+        <button onclick="showValue('5')">%<br>5</button> <!-- Hold shift for % -->
+        <button onclick="showValue('6')">^<br>6</button> <!-- Hold shift for ^ -->
+        <button onclick="showValue('7')">&<br>7</button> <!-- Hold shift for & -->
+        <button onclick="showValue('8')">*<br>8</button> <!-- Hold shift for * -->
+        <button onclick="showValue('9')">(<br>9</button> <!-- Hold shift for ) -->
+        <button onclick="showValue('0')">)<br>0</button> <!-- Hold shift for ( -->
+        <button onclick="showValue('-')">-<br>_</button> <!-- Hold shift for _-->
+        <button onclick="showValue('=')">+<br>=</button> <!-- Hold shift for +-->
+        <button onclick="showValue('BACKSPACE')" class = "backspace">Backspace <br></button> <br>
+        <button onclick="showValue('q')" class = "letters">Q</button>
+        <button onclick="showValue('w')" class = "letters">W</button>
+        <button onclick="showValue('e')" class = "letters">E</button>
+        <button onclick="showValue('r')" class = "letters">R</button>
+        <button onclick="showValue('t')" class = "letters">T</button>
+        <button onclick="showValue('y')" class = "letters">Y</button>
+        <button onclick="showValue('u')" class = "letters">U</button>
+        <button onclick="showValue('i')" class = "letters">I</button>
+        <button onclick="showValue('o')" class = "letters">O</button>
+        <button onclick="showValue('p')" class = "letters">P</button>
+        <button onclick="showValue('[')" class = "punctuation">{&nbsp;[</button> <!-- Hold shift for { -->
+        <button onclick="showValue(']')" class = "punctuation">}&nbsp;]</button> <!-- Hold shift for } -->
+        <button onclick="showValue('CAPSLOCK')" class = "capslock" id = "test">Caps Lock</button> <br>
+        <button onclick="showValue('a')" class = "letters row2">A</button>
+        <button onclick="showValue('s')" class = "letters row2">S</button>
+        <button onclick="showValue('d')" class = "letters row2">D</button>
+        <button onclick="showValue('f')" class = "letters row2">F</button>
+        <button onclick="showValue('g')" class = "letters row2">G</button>
+        <button onclick="showValue('h')" class = "letters row2">H</button>
+        <button onclick="showValue('j')" class = "letters row2">J</button>
+        <button onclick="showValue('k')" class = "letters row2">K</button>
+        <button onclick="showValue('l')" class = "letters row2">L</button>
+        <button onclick="showValue(';')" class = "punctuation row2">:&nbsp;;</button> <!-- Hold shift for : -->
+        <button onclick="showValue('&#39;')" class = "punctuation row2">"&nbsp;'</button> <!-- Hold shift for " -->
+        <button onclick="showValue('ENTER')" class = "enter row2">Enter</button> <br>
+        <!-- <button onclick="showValue('SHIFT')" class = "shift">Shift</button> -->
+        <button onclick="showValue('z')" class = "letters row3">Z</button>
+        <button onclick="showValue('x')" class = "letters row3">X</button>
+        <button onclick="showValue('c')" class = "letters row3">C</button>
+        <button onclick="showValue('v')" class = "letters row3">V</button>
+        <button onclick="showValue('b')" class = "letters row3">B</button>
+        <button onclick="showValue('n')" class = "letters row3">N</button>
+        <button onclick="showValue('m')" class = "letters row3">M</button>
+        <button onclick="showValue(',')" class = "punctuation row3">&#60; &nbsp; ,</button> <!-- Hold shift for < -->
+        <button onclick="showValue('.')" class = "punctuation row3">&#62; &nbsp; .</button> <!-- Hold shift for > -->
+        <button onclick="showValue('/')" class = "punctuation row3">?&nbsp;/</button> <!-- Hold shift for ? -->
+        <button onclick="showValue('SHIFT')" class = "shift row3">Shift</button> <br>
+        <button onclick="showValue('SPACE')" class = "space">SPACE BAR</button> <!-- Space bar -->
+    </div>
+   </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
